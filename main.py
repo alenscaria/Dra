@@ -24,8 +24,8 @@ def index():
     mydb = mysql.connector.connect(
       host='localhost',
       database='druglist',
-      user='root',
-      password='1234'
+      user='user1',
+      password='9867'
     )
       
     mycursor = mydb.cursor()
